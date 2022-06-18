@@ -1,3 +1,4 @@
+"  leader键
 let mapleader = ','
 
 " 插入模式下光标移动
