@@ -13,7 +13,6 @@ set cursorcolumn
 " highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
 " highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
 
-
 " 显示行号 相对行号
 set number
 set relativenumber

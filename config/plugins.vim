@@ -13,7 +13,7 @@ Plug 'luochen1990/rainbow'
 Plug 'preservim/nerdcommenter'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'Yggdroot/indentLine'
-
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 " indentLine
@@ -50,3 +50,7 @@ let g:rustfmt_autosave = 1
 " command! -nargs=0 Prettier :CocCommand prettier.formatFile
 " vmap <leader>f  <Plug>(coc-format-selected)
 " nmap <leader>f  <Plug>(coc-format-selected)
+
+" vim-floaterm
+nnoremap <silent> <F2> :FloatermNew<CR>
+tnoremap <silent> <F2> :<C-\><C-n>:FloatermToggle<CR>
