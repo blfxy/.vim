@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
-Plug 'morhetz/gruvbox'
+"  Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rust-lang/rust.vim'
@@ -35,12 +35,12 @@ let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowTo
 nmap <leader>t <Cmd>CocCommand explorer<CR>
 
 " vim-airline
-let g:airline_theme='dark'  
+let g:airline_theme='dark'
 
 " vim-jsonc
 "  autocmd FileType json syntax match Comment +\/\/.\+$+
 
-" fzf 
+" fzf
 nnoremap <silent> <c-p> :Files <CR>
 
 " rust.vim rust保存自动格式化

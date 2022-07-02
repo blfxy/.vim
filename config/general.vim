@@ -6,14 +6,14 @@ set nocompatible
 set helplang=cn
 
 "配色风格
-colorscheme gruvbox 
+colorscheme gruvbox
 set background=dark
 
 "命令历史记录次数
 set history=30
 
 " 代码高亮
-syntax enable 
+syntax enable
 
 " 突出当前行/列
 set cursorline
@@ -73,7 +73,7 @@ autocmd BufReadPost *
     \   exe "normal g'\"" |
     \ endif
 
-" 光标配置 
+" 光标配置
 " 1 -> blinking block  闪烁的方块
 " 2 -> solid block  不闪烁的方块
 " 3 -> blinking underscore  闪烁的下划线

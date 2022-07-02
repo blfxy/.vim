@@ -1,13 +1,13 @@
 " =======coc=======
-let g:coc_global_extensions = 
-    \ [ 
-    \ 'coc-pairs', 
-    \ 'coc-explorer', 
-    \ 'coc-translator', 
-    \ 'coc-vimlsp', 
-    \ 'coc-snippets', 
-    \ 'coc-json', 
-    \ 'coc-rust-analyzer', 
+let g:coc_global_extensions =
+    \ [
+    \ 'coc-pairs',
+    \ 'coc-explorer',
+    \ 'coc-translator',
+    \ 'coc-vimlsp',
+    \ 'coc-snippets',
+    \ 'coc-json',
+    \ 'coc-rust-analyzer',
     \ 'coc-toml',
     \ ]
 
@@ -28,8 +28,8 @@ function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-    
-" nvim使用c-space vim使用c-@ 显示补全 
+
+" nvim使用c-space vim使用c-@ 显示补全
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
 else
@@ -40,7 +40,7 @@ endif
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
-" 方法跳转 
+" 方法跳转
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
