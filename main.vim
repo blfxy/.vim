@@ -18,11 +18,18 @@ exec 'set rtp+='.s:home
 " 将 ~/.vim 目录加入 runtimepath (有时候 vim 不会自动帮你加入）
 "  set rtp+=~/.vim
 
-" 加载键位映射
-LoadScript config/keymaps.vim
 
 " 加载基础配置
-LoadScript config/general.vim
+LoadScript config/base.vim
+
+" 加载基础配置
+LoadScript config/style.vim
+
+" 加载基础配置
+LoadScript config/fileType.vim
+
+" 加载键位映射
+LoadScript config/keymaps.vim
 
 " 设定 tabsize
 LoadScript config/plugins.vim
