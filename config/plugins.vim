@@ -7,13 +7,14 @@ Plug 'honza/vim-snippets'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rust-lang/rust.vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
 Plug 'luochen1990/rainbow'
 Plug 'preservim/nerdcommenter'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'Yggdroot/indentLine'
 Plug 'voldikss/vim-floaterm'
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 call plug#end()
 
 " indentLine
@@ -41,7 +42,7 @@ let g:airline_theme='dark'
 "  autocmd FileType json syntax match Comment +\/\/.\+$+
 
 " fzf
-nnoremap <silent> <c-p> :Files <CR>
+" nnoremap <silent> <c-p> :Files <CR>
 
 " rust.vim rust保存自动格式化
 let g:rustfmt_autosave = 1
@@ -57,3 +58,7 @@ let g:floaterm_keymap_new    = '<F5>'
 let g:floaterm_keymap_prev   = '<F6>'
 let g:floaterm_keymap_next   = '<F7>'
 let g:floaterm_keymap_toggle = '<F8>'
+
+"LeaderF
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_ShortcutF = '<C-P>'
