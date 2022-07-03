@@ -52,5 +52,8 @@ let g:rustfmt_autosave = 1
 " nmap <leader>f  <Plug>(coc-format-selected)
 
 " vim-floaterm
-nnoremap <silent> <F2> :FloatermNew<CR>
-tnoremap <silent> <F2> :<C-\><C-n>:FloatermToggle<CR>
+let g:floaterm_keymap_kill   = '<F4>'
+let g:floaterm_keymap_new    = '<F5>'
+let g:floaterm_keymap_prev   = '<F6>'
+let g:floaterm_keymap_next   = '<F7>'
+let g:floaterm_keymap_toggle = '<F8>'
