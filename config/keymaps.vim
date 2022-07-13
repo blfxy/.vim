@@ -1,5 +1,5 @@
 "  leader键
-let mapleader = ','
+let mapleader = ';'
 
 " 插入模式下光标移动
 inoremap <C-h> <Left>

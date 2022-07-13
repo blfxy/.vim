@@ -6,9 +6,14 @@ let g:coc_global_extensions =
     \ 'coc-translator',
     \ 'coc-vimlsp',
     \ 'coc-snippets',
-    \ 'coc-json',
     \ 'coc-rust-analyzer',
     \ 'coc-toml',
+    \ 'coc-tsserver',
+    \ 'coc-html',
+    \ 'coc-css',
+    \ 'coc-json',
+    \ 'coc-prettier',
+    \ 'coc-eslint',
     \ ]
 
 set hidden
