@@ -51,5 +51,7 @@ let g:floaterm_keymap_next   = '<F7>'
 let g:floaterm_keymap_toggle = '<F8>'
 
 "LeaderF
+let g:Lf_WorkingDirectoryMode = 'AF'
+let g:Lf_RootMarkers = ['.git', '.toml']
 let g:Lf_WindowPosition = 'popup'
 let g:Lf_ShortcutF = '<C-P>'
