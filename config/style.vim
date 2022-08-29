@@ -5,7 +5,10 @@ syntax enable
 
 "配色风格
 colorscheme gruvbox
+"  背景颜色
 set background=dark
+"  背景透明
+hi Normal ctermbg=NONE
 
 " 突出当前行/列
 set cursorline
