@@ -1,6 +1,8 @@
 
 " 关闭vi的兼容模式(兼容模式下会让vim关闭所有的扩展，丢掉vim很多强大的功能去兼容vi)
 set nocompatible
+"  indent 允许删除自动缩进的内容 / eol 允许删除换行符 / start 允许删除进入插入模式前已有的内容
+set backspace=indent,eol,start
 
 set helplang=cn
 

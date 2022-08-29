@@ -12,6 +12,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'Yggdroot/indentLine'
 Plug 'voldikss/vim-floaterm'
 Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+"  Plug 'glepnir/dashboard-nvim'
 call plug#end()
 
 " indentLine
